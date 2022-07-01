@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Eat Happy-Thiên đường ăn vặt</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- Nav Memu Tìm Kiếm -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid header-margin">
+                <!-- logo -->
+                <i class="fas fa-utensils logo-eat"></i>
+                <a class="navbar-brand logo" href="#">
+                    <p>EatHappy</p>
+                </a>
+                <button class="navbar-toggler nav-button-js" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Nav-menu -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-margin">
+                        <li class="nav-item nav-cach">
+                            <a class="nav-link action" href="#" style="color: #fff;">Home</a>
+                        </li>
+                        <li class="nav-item  nav-cach">
+                            <a class="nav-link" href="#dishes">Các Món</a>
+                        </li>
+                        <li class="nav-item  nav-cach">
+                            <a class="nav-link " href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item  nav-cach">
+                            <a class="nav-link " href="#about">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item  nav-cach">
+                            <a class="nav-link " href="#review">Review</a>
+                        </li>
+                        <li class="nav-item  nav-cach">
+                            <a class="nav-link " href="#order">Đặt Hàng</a>
+                        </li>
+                    </ul>
+                    <!-- search -->
+                    <form class="d-flex search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart icons1"></a>
+                    <a href="#" class="fas fa-shopping-cart icons1"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- style chuyển động -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner  style-margin">
+            <div class="carousel-item active">
+                <img src="img/style1.png" class="d-block w-100 img-style" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/style2.png" class="d-block w-100 img-style" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/style3.png" class="d-block w-100 img-style" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Thực đơn theo từng món  -->
+    <section class="dishes " id="dishes">
+        <h3 class="sub-heading"> Ẩm Thực</h3>
+        <h1 class="heading"> Danh Sách Các Món</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-1.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-2.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-3.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-4.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-5.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <img class="img-box" src="img/dish-6.png" alt="">
+                <h3>Tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$ 70.000đ</span><br>
+                <button class="button">Mua Ngay</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Những món nổi bật của cửa hàng -->
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> Menu Của Hôm Nay </h3>
+        <h1 class="heading"> Món ăn đặc biệt của hôm nay </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K<span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <a href="#" class="button-add">Thêm Vào Giỏ Hàng</a>
+                    <span class="price">$90K<span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Giới thiệu về quán ăn -->
+    <section class="about " id="about">
+
+        <h3 class="sub-heading"> Giới Thiệu  </h3>
+        <h1 class="heading"> Tại sao lại chọn đồ ăn của chúng tôi??? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Đồ Ăn Ngon Nhất Việt Nam</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat
+                    voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta
+                    odio corporis nihil!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque
+                    deleniti iste alias, eum natus.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Giao Hàng Miễn Phí</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Thanh Toán Dễ Dàng</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>Phục vụ 24/24</span>
+                    </div>
+                </div>
+                <a href="#" class="button-about">Xem Thêm...</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Một số bình luận của khách hàng -->
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Đánh Giá Của Khách Hàng </h3>
+        <h1 class="heading"> What They say </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="img/review1.jfif" alt="">
+                        <div class="user-info">
+                            <h3>john Lyn</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
+                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
+                        laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="img/review4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john Lyn</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
+                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
+                        laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="img/review3.jfif" alt="">
+                        <div class="user-info">
+                            <h3>john Lyn</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
+                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
+                        laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear-left"></div>
+
+    <!-- Điền thông tin địa chỉ người mua hàng để order đồ ăn về nhà -->
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> Đặt Hàng Ngay Nào </h3>
+        <h1 class="heading"> miễn phí và nhanh chóng </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Họ Tên</span>
+                    <input type="text" placeholder="Họ Và Tên">
+                </div>
+                <div class="input">
+                    <span>Số Điện thoại</span>
+                    <input type="number" placeholder="Số Điện Thoại">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Đơn Hàng</span>
+                    <input type="text" placeholder="Tên Đơn Hàng">
+                </div>
+                <div class="input">
+                    <span>Đồ Đặt Thêm </span>
+                    <input type="test" placeholder="Tên Đồ Ăn">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Số Lượng</span>
+                    <input type="number" placeholder="Number">
+                </div>
+                <div class="input">
+                    <span>Ngày và Giờ</span>
+                    <input type="date">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Địa chỉ</span>
+                    <textarea name="" placeholder="Địa chỉ" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span> Chú Thích </span>
+                    <textarea name="" placeholder="Lời Nhắn" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="button-add">
+        </form>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer ">
+        <div class="box-wrapper">
+
+            <div class="box">
+                <h3>Các Cơ Sở</h3>
+                <a href="#"> Hải Dương</a>
+                <a href="#">Hà Nội</a>
+                <a href="#">Đà Nẵng</a>
+                <a href="#">HCM</a>
+                <a href="#">Cao Bằng</a>
+            </div>
+
+            <div class="box">
+                <h3>Link Dẫn</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>Thông Tin Liên Hệ</h3>
+                <a href="#">+123-456-789</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">botocMiXi@gmail.com</a>
+                <a href="#">Thanh Miện - HD</a>
+            </div>
+
+            <div class="box">
+                <h3>follow </h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+            </div>
+
+        </div>
+
+        <div class="boder-footer-button"> copyright @ 2021 by <span> Nhóm...?</span> </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
